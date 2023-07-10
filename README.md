@@ -1,3 +1,3 @@
 # C-PPlus
 
-This Folder's Code by NattiiZ.s30011 for ComPro Sec3
+Code of this folder created by NattiiZ.s30011 for ComPro Sec-3
