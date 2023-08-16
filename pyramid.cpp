@@ -6,7 +6,6 @@ int main()
     char choice;
     int row;
 
-    cout << "=======================\n\n";
     cout << "Select choice\n\n";
     cout << "1. Align left\n";
     cout << "1. Align right\n";
