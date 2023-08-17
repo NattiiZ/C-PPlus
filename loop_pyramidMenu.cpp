@@ -10,7 +10,7 @@ int main()
     cout << "Select Menu\n";
     cout << "-----------------------\n";
     cout << "1. Align left\n";
-    cout << "1. Align right\n";
+    cout << "2. Align right\n";
     cout << "3. Center\n";
     cout << "4. Exit\n";
     cout << "-----------------------\n";
