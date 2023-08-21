@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     int random;
-    float total=0, score, Max=0, Sum, Avg;
+    float total=0, score, Max=0;
 
 
     srand(time(NULL));
