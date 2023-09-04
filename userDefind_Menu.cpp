@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
+
 void CalCircle();
 void CalRectangle();
-
 
 int main()
 {   
@@ -64,7 +64,7 @@ void CalCircle()
 
 void CalRectangle()
 {
-    float Width, Length, Area, Circumference;
+    float Width, Length, Area;
 
     cout << "--- Rectangle Menu ---" << endl;
     cout << "Input Width : ";
