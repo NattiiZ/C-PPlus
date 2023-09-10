@@ -2,11 +2,11 @@
 #include <time.h>
 using namespace std;
 
-int checkNum(int number, int random, int result);
+void checkNum(int number, int random);
 
 int main()
 {
-    int random, guess, result=0, count=0;
+    int random, guess, count=0;
 
     srand(time(NULL));
     random = 1+rand()%10;
@@ -19,10 +19,10 @@ int main()
     {
         cout << "Guess the number (1 to 10) : ";
         cin >> guess;
-        result = checkNum(guess, random, result);
+        checkNum(guess, random);
         count++;
 
-    } while (result!=1);
+    } while (guess!=random);
 
     cout << "Congratulations!\n";
     cout << "The secret number is "<< random << endl;
@@ -35,14 +35,10 @@ int main()
 }
 
 
-int checkNum(int guess, int random, int result)
+void checkNum(int guess, int random)
 {
     if (guess>random)
         cout << "The secret number is higher\n\n";
     else if (guess<random)
         cout << "The secret number is lower\n\n";
-    else
-        result = 1;
-    
-    return(result);
 }
