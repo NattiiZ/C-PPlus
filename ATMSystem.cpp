@@ -6,8 +6,8 @@ float update_balance(int command, float amount, float balance);
 
 int main()
 {
-    int command, amount;
-    float balance=10000;
+    int command;
+    float balance=10000, amount;
 
     do
     {
