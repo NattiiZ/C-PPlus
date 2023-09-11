@@ -23,6 +23,7 @@ int main()
     } while (command!=0);
     cout << "Exit with 0" << endl;
 
+
     cout << endl;
     system("pause");
     return 0;
@@ -34,5 +35,6 @@ float update_balance(int command, float amount, float balance)
         balance -= amount;
     else if (command == 2)
         balance += amount;
+
     return(balance);
 }
