@@ -35,6 +35,8 @@ float update_balance(int command, float amount, float balance)
         balance -= amount;
     else if (command == 2)
         balance += amount;
+    else
+        cout << "You input wrong menu" << endl;
 
     return(balance);
 }
