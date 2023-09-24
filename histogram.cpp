@@ -12,7 +12,7 @@ int main()
     for (int i=0; i<10; i++)
     {
         value[i] = 1+rand()%30;
-        cout << i << setfill(' ') << setw(5) << right << value[i] << " " << setfill('*') << setw(value[i]) << "" << endl;
+        cout << i << setfill(' ') << setw(5) << right << value[i] << "  " << setfill('*') << setw(value[i]) << "" << endl;
     }
 
 
