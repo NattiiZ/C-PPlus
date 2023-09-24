@@ -5,13 +5,13 @@ using namespace std;
 
 int main()
 {
-    int value[10], random;
+    int value[10];
 
 
     srand(time(NULL));
     for (int i=0; i<10; i++)
     {
-        value[i] = 1+rand()%29;
+        value[i] = 1+rand()%30;
         cout << i << setfill(' ') << setw(4) << right << value[i] << " " << setfill('*') << setw(value[i]) << "" << endl;
     }
 
