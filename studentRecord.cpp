@@ -67,6 +67,7 @@ int main()
 
 // --------------------- Functions --------------------- //
 
+
 void Input(int &No_std ,int quizz[20], int Mid[20], int Final[20])
 {   
     cout << "Enter Number of Student : ";
