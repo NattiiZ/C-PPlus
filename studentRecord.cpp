@@ -85,7 +85,6 @@ void Input(int &No_std ,int quizz[20], int Mid[20], int Final[20])
         cin >> Final[i];
         cout << endl;
     }
-    cout << endl;
     system("pause");
 }
 
@@ -100,6 +99,7 @@ void ViewAll(int No_std ,int quizz[20], int Mid[20], int Final[20])
         cout << right << setw(4) << setfill(' ') << i+1 << right << setw(11) << setfill(' ') << quizz[i] << right << setw(10) << setfill(' ')<< Mid[i] << right << setw(11) << setfill(' ') << Final[i] << endl;
     }
     cout << setfill('-') << setw(38) << "\n";
+    cout << endl;
     system("pause");
 }
 
