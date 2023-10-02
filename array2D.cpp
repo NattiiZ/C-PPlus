@@ -5,13 +5,26 @@ using namespace std;
 
 int main()
 {
-    int num[3][2];
+    int num[3][3];
+    string name[3];
 
-    for (int i=0; i<3; i++)
+
+    for (int i = 0; i < 3; i++)
     {
-        for (int k=0; k<2; k++)
+        cout << "Student " << i + 1 << endl;
+        cout << "Name : ";
+        cin >> name[i];
+        for (int k = 0; k < 3; k++)
         {
-            cout << "Enter score ["<< i << "]["<< k << "]: ";
+            string sub;
+            if (k == 0)
+                sub = "Math";
+            else if (k == 1)
+                sub = "Science";
+            else if (k == 2)
+                sub = "English";
+
+            cout << "Enter score " << sub << " : ";
             cin >> num[i][k];
         }
         cout << endl;
@@ -20,16 +33,16 @@ int main()
     // cout << num << endl;
     // cout << num[0] << endl;
     // cout << num[0][1];
-    
 
     cout << "Show score\n\n";
-    cout << "Student   Math   Science\n";
-    for (int i=0; i<3; i++)
+    cout << " Student     Math   Science   English\n";
+    for (int i = 0; i < 3; i++)
     {
-        cout << "   " << i+1;
-        for (int k=0; k<2; k++)
-            cout << right << setw(9) << setfill(' ') << num[i][k];
-        
+        cout << " " << i + 1 << " " << left << setw(5) << name[i];
+        for (int k = 0; k < 3; k++)
+        {
+            cout << right << setw(8) << setfill(' ') << num[i][k] << "  ";
+        }
         cout << endl;
     }
 
