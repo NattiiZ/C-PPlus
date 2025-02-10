@@ -1,2 +1,2 @@
 # C++
-All codes were created by Nattawut.s30011 for Computer Programming.
+All codes were created by Nattawut_s30011 for Computer Programming.
